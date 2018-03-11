@@ -31,23 +31,22 @@ function initializeApplication() {
   var elHeaderTitle = document.createElement('h1');
   elHeaderTitle.innerHTML = appData.title;
   elHeader.appendChild(elHeaderTitle);
+  elHeaderTitle.className = 'animated bounceInDown';
 
   var elHeaderTagLine = document.createElement('h2');
   elHeaderTagLine.textContent = appData.tagline;
   elHeaderTagLine.style.fontSize = '.4em';
   elHeader.appendChild(elHeaderTagLine);
+  elHeaderTagLine.className = 'animated bounceInLeft';
 
   var elMain = document.createElement('main');
   elMain.innerHTML = '<p>Hello World!</p>';
   elWrapper.appendChild(elMain);
+  elMain.className = 'animated zoomIn';
 
   var elFooter = document.createElement('footer');
   elFooter.innerHTML = '<h4>get excited about learning JavaScript...</h4>';
   elWrapper.appendChild(elFooter);
-
-  elHeaderTitle.className = 'animated bounceInDown';
-  elHeaderTagLine.className = 'animated bounceInLeft';
-  elMain.className = 'animated zoomIn';
   elFooter.className = 'animated bounceInRight';
 
 }
