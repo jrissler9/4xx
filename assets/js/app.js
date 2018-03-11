@@ -6,11 +6,16 @@ var applicationTitle = 'inside out - js';
 
 var applicationTagLine = 'continuously falling forward into the light...';
 
+var appData = {
+  title: 'inside out - js',
+  tagLine: 'continuously falling forward into the light...'
+};
+
 window.addEventListener('load', initializeApplication);
 
 function initializeApplication() {
 
-  document.title = applicationTitle;
+  document.title = appData.title;
 
   document.body.style.backgroundColor = '#BBB';
   document.body.style.textAlign = 'center';
@@ -24,11 +29,11 @@ function initializeApplication() {
   elWrapper.appendChild(elHeader);
 
   var elHeaderTitle = document.createElement('h1');
-  elHeaderTitle.innerHTML = applicationTitle;
+  elHeaderTitle.innerHTML = appData.title;
   elHeader.appendChild(elHeaderTitle);
 
   var elHeaderTagLine = document.createElement('h2');
-  elHeaderTagLine.textContent = applicationTagLine;
+  elHeaderTagLine.textContent = appData.tagline;
   elHeaderTagLine.style.fontSize = '.4em';
   elHeader.appendChild(elHeaderTagLine);
 
