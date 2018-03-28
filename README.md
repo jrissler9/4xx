@@ -17,3 +17,15 @@
   - added style.css and linked to index.html
   - added login form function and call after progress bar is completed
   - added minimal validateLogin function to check for blank strings
+
+  inside out project version 403.0
+  - index.html
+    - updated all hrefs/links to passive protocol
+    - moved stylesheet link below animate and bootstrap to allow for custom styles to override all
+  - app.js
+      - added the applicationUserInterface function which defines the application user interface
+      - added the buildMenu function which returns the navigation menu and will increase in dynamic navigation building
+      - added the buildMain function which returns the primary content area and will evolve to return content dynamically
+      - replaced the document write with call to applicationUserInterface function in the validateLogin function
+      - added the linkClicked function which is called by click events on anchor elements and returns dynamically driven results
+      - fixed an error that was preventing the application tagline from loading correctly
