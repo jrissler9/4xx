@@ -29,7 +29,7 @@ function initializeApplication() {
   elHeaderTitle.className = 'animated bounceInDown';
 
   var elHeaderTagLine = document.createElement('h2');
-  elHeaderTagLine.textContent = appData.tagline;
+  elHeaderTagLine.textContent = appData.tagLine;
   elHeaderTagLine.style.fontSize = '.4em';
   elHeader.appendChild(elHeaderTagLine);
   elHeaderTagLine.className = 'animated bounceInLeft';

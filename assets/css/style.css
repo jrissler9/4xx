@@ -67,9 +67,6 @@ h1 {
 
 
 /* start step-402.0  */
-html, body{
-    font-size: 14px;
-}
 
 #loginFrm{
     max-width: 200px;
@@ -108,7 +105,7 @@ html, body{
   border-top-right-radius: 0;
 }
 
-#inNow{
+#inNow {
     margin-top: 15%;
 }
 /* end step-402.0 */
