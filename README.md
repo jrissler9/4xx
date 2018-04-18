@@ -29,3 +29,15 @@
       - replaced the document write with call to applicationUserInterface function in the validateLogin function
       - added the linkClicked function which is called by click events on anchor elements and returns dynamically driven results
       - fixed an error that was preventing the application tagline from loading correctly
+    inside out project version 404.0
+      - index.html
+        - removed comments and cleaned code
+        - added script tag for quotes.js file
+      - style.css
+        - modified the sidebar and sidebar ul classes
+        - added the auth and infoDiv classes
+      - app.js
+        - added the quotArr sort to the initializeApplication function
+        - modified buildMenu function to dynamically build the menu from the array
+        - modified linkClicked function to dynamically populate main content with array content
+      - added the assets/data/quotes.js file
